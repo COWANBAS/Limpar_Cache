@@ -2,7 +2,7 @@
 // @name                  Limpa o Cache do Navegador
 // @description           Limpa o cache sempre que uma nova guia for aberta
 // @namespace             CowanCACHE
-// @license               CowBas
+// @license               GPL-3.0
 // @version               1.0
 // @author                Cowanbas
 // @match                 *://*/*
@@ -59,3 +59,4 @@
   clearServiceWorkers();
   reloadWithoutCache();
 })();
+
